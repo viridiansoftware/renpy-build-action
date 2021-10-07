@@ -29,7 +29,7 @@ if ../renpy/renpy.sh ../renpy/launcher distribute $2; then
     built_dir=$(ls | grep '\-dists')
     chmod -R 777 $built_dir
     chmod -R 777 "$2/game/cache"
-    chmod -R 777 "$2/saves"
+    chmod -R 777 "$2/game/saves"
     echo ::set-output name=dir::$built_dir
     echo ::set-output name=version::${built_dir%'-dists'}
 else
