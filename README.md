@@ -1,5 +1,7 @@
 # Build Ren'Py Project
 
+Fork of [renpy-build-action](https://github.com/ProjectAliceDev/renpy-build-action)
+
 This GitHub action allows you to make distributable builds of a Ren'Py visual novel project in a workflow and use the built files for distribution.
 
 ## Usage
